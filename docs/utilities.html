@@ -52,7 +52,12 @@
 <li class="toctree-l2"><a class="reference internal" href="constants.html">constants module</a></li>
 <li class="toctree-l2"><a class="reference internal" href="credentials.html">credentials module</a></li>
 <li class="toctree-l2"><a class="reference internal" href="switch.html">switch module</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">utilities module</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">utilities module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#utilities.decide_pub_key_method"><code class="docutils literal notranslate"><span class="pre">decide_pub_key_method()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#utilities.do_convert_pubkey_cisco_ios"><code class="docutils literal notranslate"><span class="pre">do_convert_pubkey_cisco_ios()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#utilities.do_convert_pubkey_huawei"><code class="docutils literal notranslate"><span class="pre">do_convert_pubkey_huawei()</span></code></a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -82,8 +87,27 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="utilities-module">
-<h1>utilities module<a class="headerlink" href="#utilities-module" title="Link to this heading"></a></h1>
+  <section id="module-utilities">
+<span id="utilities-module"></span><h1>utilities module<a class="headerlink" href="#module-utilities" title="Link to this heading"></a></h1>
+<p>Utilities used in conquers</p>
+<dl class="py function">
+<dt class="sig sig-object py" id="utilities.decide_pub_key_method">
+<span class="sig-prename descclassname"><span class="pre">utilities.</span></span><span class="sig-name descname"><span class="pre">decide_pub_key_method</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">file_path</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">device_type</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="reference internal" href="_modules/utilities.html#decide_pub_key_method"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#utilities.decide_pub_key_method" title="Link to this definition"></a></dt>
+<dd><p>Decide which method to use and execute.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="utilities.do_convert_pubkey_cisco_ios">
+<span class="sig-prename descclassname"><span class="pre">utilities.</span></span><span class="sig-name descname"><span class="pre">do_convert_pubkey_cisco_ios</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">file_path</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="reference internal" href="_modules/utilities.html#do_convert_pubkey_cisco_ios"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#utilities.do_convert_pubkey_cisco_ios" title="Link to this definition"></a></dt>
+<dd><p>Exports openssh public key in cisco_ios format.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="utilities.do_convert_pubkey_huawei">
+<span class="sig-prename descclassname"><span class="pre">utilities.</span></span><span class="sig-name descname"><span class="pre">do_convert_pubkey_huawei</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">file_path</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="reference internal" href="_modules/utilities.html#do_convert_pubkey_huawei"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#utilities.do_convert_pubkey_huawei" title="Link to this definition"></a></dt>
+<dd><p>Exports public key in huawei format.</p>
+</dd></dl>
+
 </section>
 
 
