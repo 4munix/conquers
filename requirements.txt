@@ -3,3 +3,6 @@ pycryptodome
 cryptography
 colorama
 psutil
+pyyaml
+sphinx
+sphinx_rtd_theme
