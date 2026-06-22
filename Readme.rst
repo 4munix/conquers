@@ -1,4 +1,4 @@
-.. image:: https://cdn.amendes.me/conquers/logo.svg
+.. image:: https://raw.githubusercontent.com/4munix/ghcdn/refs/heads/main/conquers/logo.png
    :width: 144
    :alt: conquers logo
 
